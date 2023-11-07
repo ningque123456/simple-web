@@ -16,4 +16,9 @@ public class DemoController {
     public String demo2(){
         return "demo222222222";
     }
+
+    public int demo3(){
+        System.out.println("hello");
+        return 1;
+    }
 }
