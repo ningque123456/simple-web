@@ -12,4 +12,8 @@ public class DemoController {
     public String demo(){
         return "demo";
     }
+    @RequestMapping(method = RequestMethod.GET , value = "/demo2")
+    public String demo2(){
+        return "demo222222222";
+    }
 }
